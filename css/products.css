@@ -1,0 +1,28 @@
+@import "style.css";
+
+main {
+  width: 100%;
+  height: calc(100vh - 385px);
+  background-image: none;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+.product {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.product img {
+  width: 45%;
+  max-height: calc(100vh - 400px);
+  float: left;
+  margin-right: 140px;
+}
+
+a {
+  color: var(--tabsH);
+}
+
+.contactme {
+  margin-left: 200px;
+}

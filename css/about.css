@@ -1,0 +1,51 @@
+@import "style.css";
+
+main {
+  width: 100%;
+  height: auto;
+  background-image: none;
+  font-family: 'Hind Madurai', sans-serif;
+  color: var(--tabsH);
+}
+
+.centre {
+  width: 75%;
+  margin: auto;
+}
+
+.section1 img,
+.section3 img {
+  width: 33%;
+  float: left;
+  margin-right: 100px;
+}
+
+.section2 img,
+.section4 img {
+  width: 33%;
+  float: right;
+  margin-left: 100px;
+}
+
+.centre p {
+  width: 100%;
+  text-shadow: 1px 0px 20px;
+}
+
+
+.about {
+  display: table;
+  clear: both;
+  content: '';
+  margin: 10% 5%;
+}
+
+#contact {
+  /* color: var(--textColour); */
+  font-size: 1.8em;
+}
+
+#contact span {
+  color: var(--tabsH);
+  font-family: 'Kaushan Script', cursive;
+}

@@ -1,0 +1,155 @@
+:root {
+  --tabs: #cc9966;
+  --tabsH: #c68c53;
+  --textColour:  #446600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: 'Kaushan Script', cursive;
+                                  /* border: 1px solid green; */
+}
+
+.smudgeLogo {
+  width: 150px;
+  display: block;
+  margin: auto;
+                                  /* border: 1px solid purple; */
+}
+
+.menuList {
+                                  /* border: 1px solid orange; */
+  margin: 0px 0 20px;
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 2em;
+  color: var(--tabsH);
+  border-bottom: 1px solid var(--tabsH);
+  border-top: 1px solid var(--tabsH);
+}
+
+.last {
+  right: 10px;
+}
+
+.menuList span {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* DropDown menu box */
+.box {
+  display: none;
+  z-index: 10;
+  color: var(--tabsS);
+  position: absolute;
+  font-size: .6em;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 20px 10px 0;
+  box-shadow: 5px 5px 50px
+}
+
+.box .firstList {
+  float: left;
+  list-style: none;
+}
+
+.box .secondList {
+  font-size: .8em;
+  list-style: none;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+.box .secondList li:hover {
+  border-bottom: 1px solid var(--tabsH);
+}
+
+.firstList li {
+  padding: 15px 0;
+                                    /* border: 1px solid gray; */
+}
+.secondList li {
+  padding: 15px 0;
+  margin-left: -10px
+                                    /* border: 1px solid gray; */
+}
+
+.menuList li:hover .box,
+.menuList li:focus .box {
+  display: block;
+                                  /* border: 1px solid gray; */
+}
+
+.menuList li:focus,
+.menuList span:focus {
+  outline: none;
+}
+
+main {
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/homescreen/3.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+}
+
+footer {
+  /* background-color: var(--tabsH); */
+  height: 100px;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+footer .bottomNav {
+  width: 85%;
+  margin: 25px auto 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2em;
+  border-top: .5px solid var(--tabsH);
+}
+
+.bottomNav a {
+  text-decoration: none;
+  color: var(--tabsH);
+  margin-top: 15px;
+}
+
+footer .inslogo img {
+  width: 50px;
+  margin: 15px 0 0 0;
+}
+
+@media(max-width: 414px) {
+  .menuList {
+    display: block;
+    border: none;
+    text-align: center;
+  }
+
+  .box {
+    position: relative;
+    padding: 0;
+  }
+
+  .box .firstList {
+    float: none;
+    width: 80%;
+  }
+
+  .smudgeLogo {
+    width: 40%;
+  }
+
+  main {
+    display: none;
+  }
+}

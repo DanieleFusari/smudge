@@ -1,0 +1,27 @@
+@import "style.css";
+
+main {
+  width: 100%;
+  height: auto;
+  background-image: none;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+.boxTC {
+  width: 75%;
+  margin: auto;
+}
+
+.boxTC h1 {
+  font-family: 'Kaushan Script', cursive;
+  color: var(--tabsH);
+  text-align: center;
+  margin: 60px;
+}
+
+.boxTC p {
+  margin: 40px 0;
+}
+.boxTC p::first-letter {
+  font-size: 1.2em;
+}
