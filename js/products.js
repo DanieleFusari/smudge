@@ -16,7 +16,8 @@ Array.from(productSelection).forEach(listItem => {
     let productName = e.target.textContent;
     productName = productName.replace(/\s/g, '');
     productName = productName.toLowerCase()
-    displayProductPage(eval(productName));
+    localStorage.setItem('product', productName);
+    location.reload();
   })
 });
 
