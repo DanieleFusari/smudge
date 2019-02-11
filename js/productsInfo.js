@@ -1,12 +1,12 @@
 const claynopoo = {
   name: 'Clay Nopoo',
-  img: 'img/products/IMG_8094.jpg',
+  img: 'img/products/IMG_8114.jpg',
   info: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   ingreadence: "the printing, and typesetting, industry, Lorem Ipsum, has been the industry's, standard dummy, text ever since the 1500s"
 }
 const prewashoilconditioner = {
   name: 'Pre Wash Oil Conditioner',
-  img: 'img/products/IMG_8090.jpg',
+  img: 'img/products/IMG_8120.jpg',
   info: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   ingreadence: "the printing, and typesetting, industry, Lorem Ipsum, has been the industry's, standard dummy, text ever since the 1500s"
 }

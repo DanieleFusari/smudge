@@ -84,7 +84,7 @@ header {
 .menuList li:hover .box,
 .menuList li:focus .box {
   display: block;
-                                  /* border: 1px solid gray; */
+                                  /*  border: 1px solid gray; */
 }
 
 .menuList li:focus,
