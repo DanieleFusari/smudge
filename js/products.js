@@ -17,6 +17,7 @@ Array.from(productSelection).forEach(listItem => {
     productName = productName.replace(/\s/g, '');
     productName = productName.toLowerCase()
     localStorage.setItem('product', productName);
+    displayProductPage(eval(productName));
     location.reload();
   })
 });
