@@ -129,21 +129,17 @@ footer .inslogo img {
 }
 
 @media(max-width: 414px) {
-  header {
-    width: 110%;
-  }
+
   .menuList {
     display: block;
     border: none;
     text-align: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin: auto;
   }
-  .menuList li {
+
+  .menuList li span{
         /* border-bottom: 1px solid #000; */
-        box-shadow: 1px 1px 5px var(--tabsH)
+        box-shadow: 1px 1px 5px var(--tabsH);
+        width: 100%;
   }
 
   .box {
