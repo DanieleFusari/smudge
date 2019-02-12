@@ -49,3 +49,23 @@ main {
   color: var(--tabsH);
   font-family: 'Kaushan Script', cursive;
 }
+
+
+@media (max-width: 414px) {
+  .section4 {
+    font-size: .5em;
+  }
+
+  .about {
+    text-align: center;
+    margin: 25px 0 ;
+
+  }
+
+  .centre img {
+    float: none;
+    display: block;
+    margin:  30px auto;
+
+  }
+}
