@@ -13,10 +13,11 @@ main {
 }
 
 .product img {
-  width: 45%;
+  max-width: 45%;
   max-height: calc(100vh - 400px);
   float: left;
   margin-right: 140px;
+  border-radius: 10%;
 }
 
 a {

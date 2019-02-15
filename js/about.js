@@ -1,6 +1,5 @@
 const productSelection = document.getElementsByClassName('secondList');
 
-
 Array.from(productSelection).forEach(listItem => {
   listItem.addEventListener('click', (e)=> {
     let productName = e.target.textContent;
