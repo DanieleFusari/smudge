@@ -7,6 +7,14 @@ class Products {
   }
 }
 
+
+
+// ************ order of Products **************
+// const name =  new Products(  Name,
+//                              img link,
+//                              bio  )
+//
+
 // ************ Hair **************
 // Shampoo
 const claynopoo = new Products('Clay Nopoo', 'img/products/Nopoo.jpg', "A rahssoul clay and oil formula is designed to gently cleanse whilst moisturising hair without stripping natural oils and stimulate hair growth. Stripping hair of natural oils can cause over production of oils, greasy hair and consequently triggering more washing. This contributes to dry hair. The clay in this formula is less alkaline compared to many shampoos therefore allowing the hair to restore its natural balance contributing to healthy strong locks.  Balanced cleansers also protect your hair’s natural oils, sebum, rather than stripping it away. The added jojoba and rosehip oils moisturise the hair consequently reducing frizz and dry ends. Ylang-Ylang and rosemary essential oils are known to increase production of sebum and stimulate hair growth. ",  "Rhassoul clay, jojoba oil, rosehip oil, Rosemary and Ylang-Ylang essential oils. [How to use]: Add hot water to a portion of the no poo formula. Let it sit for 5-10 minutes until it has turned into a thick paste. Massage the paste into the hair and leave for 10 minutes. Rinse thoroughly with warm water.")
@@ -14,9 +22,7 @@ const claynopoo = new Products('Clay Nopoo', 'img/products/Nopoo.jpg', "A rahsso
 const prewashoilconditioner = new Products('Pre Wash Oil Conditioner', 'img/products/conditioner.jpg', "TBA", "TBA")
 // ************ END Hair **************
 
-
 // ************ Face **************
-
 // Oil Washes
 const lavenderfaceoilwash = new Products('Smudge Oil Wash Lavender and Rosemary Face Facial Oil Wash (acne prone skin)', 'img/products/acneoil.jpg', "This lavender and rosemary oil wash is designed for skin with acne including oily skin. Lavender is healing even as rosemary is antiseptic, antibacterial and helps balance oily skin. The oil wash is blended with borage oil which is high in oleic acids; acids which deeply penetrate the skins surface therefore replenishing and maintaining moisture without clogging pores. ", "Grape seed oil, borage oil, hazelnut oil (castor oil as an alternative for those with nut allergies), lavender and rosemary essential oil")
 const acneoilwash = new Products('Smudge Oil Wash Lavender and Rosemary Face Facial Oil Wash (acne prone skin)', 'img/products/acneoil.jpg', "This lavender and rosemary oil wash is designed for skin with acne including oily skin. Lavender is healing even as rosemary is antiseptic, antibacterial and helps balance oily skin. The oil wash is blended with borage oil which is high in oleic acids; acids which deeply penetrate the skins surface therefore replenishing and maintaining moisture without clogging pores. ", "Grape seed oil, borage oil, hazelnut oil (castor oil as an alternative for those with nut allergies), lavender and rosemary essential oil")
@@ -25,7 +31,6 @@ const antiagingfacialoilwash = new Products('Smudge Rose Geranium Anti Aging Fac
 const smudgefacialoilwashes = new Products('Smudge Facial Oil Washes', 'img/products/ealmingoil.jpg', "Oil wash for the face cleanses the skin without stripping out natural oils. Natural oils help lubricate, heal, protect and moisturise facial skin. Skin that is stripped of these naturally produced oils attempts to repair by quickly producing more oil perpetuating the washing cycle. This can lead to dry and/or oily skin. Smudge Oil Washes operate through oil dissolving oil allowing the skin to function properly.", "How to use: Wet the skin with warm water then massage in the oil blend. Leave for several minutes (this could be done whilst brushing teeth or when taking a hot bath/ shower. Heat opens the pores allowing the oil wash to sink deeper into the skin). Wipe off the facial oil wash with a wet hot cloth. ")
 const facecreaminthesun = new Products('Smudge in the Sun\' face cream', 'img/products/facecreamsun.jpg', "'Smudge in the Sun' is a mineral non-comedogenic cream designed to be applied on sunny occasions. Being rich in shea butter, it is a good source of vitamins for skin. Similar to 'Smudge in the Sun' body cream, Smudge's face version contains zinc oxide known to have sun protective properties and does not contain toxic chemicals. Jojoba oil, vitamin e and carrot seed oil have their own natural sun protection whilst also being anti-inflammatory. (Disclaimer: Smudge does not claim this cream has a SPF and has not been tested for accurate SPF rating)", "Shea butter, non nano zinc oxide, vitamin e oil, jojoba oil, essential oils (carrot seed and red raspberry seed oil)")
 // ************ END Face **************
-
 
 // ************ Body **************
 // Creams

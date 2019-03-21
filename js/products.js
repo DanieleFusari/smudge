@@ -22,7 +22,6 @@ Array.from(productSelection).forEach(listItem => {
   })
 });
 
-
 function displayProductPage(productInfo) {
   while (product.firstChild) {
     product.removeChild(product.firstChild);
@@ -42,13 +41,13 @@ function displayProductPage(productInfo) {
   p2.innerText = productInfo.ingreadence;
   h2.innerText = productInfo.name;
   p.innerText = productInfo.info;
-  em.innerText = 'Ingredence';
+  em.innerText = 'Ingredients';
   ae.innerText = 'Drop me an E-Mail';
   at.innerText = 'Drop me an Call';
 
   at.className = 'contactme'
   ae.setAttribute('href', 'mailto:dovemccolm@yahoo.co.uk?subject='+ productInfo.name);
-  at.setAttribute('href', 'tel:07449998388');
+  at.setAttribute('href', 'tel:+447557950493');
 
   product.innerHTML = img.outerHTML + h2.outerHTML + p.outerHTML + em.outerHTML + p2.outerHTML + ae.outerHTML + at.outerHTML;
 };
