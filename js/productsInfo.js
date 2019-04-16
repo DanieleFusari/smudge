@@ -12,14 +12,15 @@ class Products {
 // ************ order of Products **************
 // const name =  new Products(  Name,
 //                              img link,
-//                              bio  )
+//                              bio,
+//                              ingreadence )
 //
 
 // ************ Hair **************
 // Shampoo
 const claynopoo = new Products('Clay Nopoo', 'img/products/Nopoo.jpg', "A rahssoul clay and oil formula is designed to gently cleanse whilst moisturising hair without stripping natural oils and stimulate hair growth. Stripping hair of natural oils can cause over production of oils, greasy hair and consequently triggering more washing. This contributes to dry hair. The clay in this formula is less alkaline compared to many shampoos therefore allowing the hair to restore its natural balance contributing to healthy strong locks.  Balanced cleansers also protect your hair’s natural oils, sebum, rather than stripping it away. The added jojoba and rosehip oils moisturise the hair consequently reducing frizz and dry ends. Ylang-Ylang and rosemary essential oils are known to increase production of sebum and stimulate hair growth. ",  "Rhassoul clay, jojoba oil, rosehip oil, Rosemary and Ylang-Ylang essential oils. [How to use]: Add hot water to a portion of the no poo formula. Let it sit for 5-10 minutes until it has turned into a thick paste. Massage the paste into the hair and leave for 10 minutes. Rinse thoroughly with warm water.")
 // Conditioner
-const prewashoilconditioner = new Products('Pre Wash Oil Conditioner', 'img/products/Pre Wash Oil Conditioner.jpg', "TBA", "TBA")
+const prewashoilconditioner = new Products('Pre Wash Oil Conditioner', 'img/products/Pre Wash Oil Conditioner.jpg', 'The oil wash conditioner consists of nourishing oils for hair including argon and jojoba. Argon oil is rich in fatty acids and vitamin e which nurtures and protects hair. As jojoba oil is similar to hairs’ natural oil, sebum, it deeply moisturises without causing greasiness.  Sweet almond and grapeseed oils, not only seal and protect hair, but are also overflowing with vitamin A which is shown to promote hair growth. ', 'Argon oil, Jojoba oil, Sweet almond oil, grapeseed oil... [How to use]: Thoroughly drench hair. Take a dessert spoon amount (more or less may be needed) of the oil conditioner and thoroughly massage into hair and scalp paying attention to driest areas e.g. ends of hair.')
 // ************ END Hair **************
 
 // ************ Face **************
