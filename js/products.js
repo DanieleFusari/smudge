@@ -43,7 +43,7 @@ function displayProductPage(productInfo) {
   p.innerText = productInfo.info;
   em.innerText = 'Ingredients';
   ae.innerText = 'Drop me an E-Mail';
-  at.innerText = 'Drop me an Call';
+  at.innerText = 'Drop me a Call';
 
   at.className = 'contactme'
   ae.setAttribute('href', 'mailto:dovemccolm@yahoo.co.uk?subject='+ productInfo.name);
